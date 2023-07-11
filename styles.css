@@ -45,19 +45,19 @@
 }
 
 /* featured area section styles */
-.featured-info{
+.featured-info,.social-media-contact{
     text-align: center;
     margin-top: 100px;
     margin-bottom: 20px;
 }
-.featured-title{
+.featured-title,.insta-head{
     color: #272727;
 text-align: center;
 font-size: 40px;
 font-weight: 800;
 line-height: normal;
 }
-.featured-description{
+.featured-description,.insta-details{
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-size: 18px;
@@ -148,6 +148,9 @@ line-height: normal;
 font-size: 40px;
 font-weight: 800;
 }
+#change-color{
+    color: red;
+}
 #deals-details{
     color: rgba(39, 39, 39, 0.60);
 text-align: center;
@@ -164,4 +167,18 @@ font-weight: 400;
     width: 60%;
 }
 
-/*  */
+/* visit us section styles */
+.insta-photos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin: auto;
+   height: 350px;
+    width: 1200px;
+}
+.insta-image{
+    width: 100%;
+}
+.flowers-photo{
+    width: 90%;
+}
