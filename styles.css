@@ -105,3 +105,63 @@ line-height: normal;
     font-weight: 700;
     text-decoration-line: underline;
 }
+
+/* service section styles */
+.services{
+    height: 250px;
+    width: 1200px;
+    margin: auto;
+    margin-bottom: 50px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+}
+.services-image{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+}
+.services-info{
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 24px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Hot deal section styles */
+.hot-deals{
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    margin-bottom: 50px;
+}
+.deals-description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.deals-info{
+    text-align: center;
+}
+#deals-title{
+    color: #272727;
+font-size: 40px;
+font-weight: 800;
+}
+#deals-details{
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+}
+.deals-image{
+    height: 350px;
+    width: 300px;
+    padding-left: 50px;
+    margin-top: 50px;
+}
+.image-rose{
+    width: 60%;
+}
+
+/*  */
