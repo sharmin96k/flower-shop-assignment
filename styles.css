@@ -12,6 +12,8 @@
    margin-left: 150px;
    margin-top: 30px;
    padding-left: 30px; 
+   height: 300px;
+   width: 50%;
 }
 .banner-title{
     color: #272727;
@@ -30,9 +32,9 @@
     padding-top: 28px;
 }
 .banner-image{
-    margin-left: 150px;
+    margin-left: 100px;
     padding-top: 39px;
-    width: 56%;
+    width: 63%;
 }
 .btn{
     background-color: #E55473;
@@ -50,14 +52,14 @@
     margin-top: 100px;
     margin-bottom: 20px;
 }
-.featured-title,.insta-head{
+.featured-title,.insta-head,.latest-title{
     color: #272727;
 text-align: center;
 font-size: 40px;
 font-weight: 800;
 line-height: normal;
 }
-.featured-description,.insta-details{
+.featured-description,.insta-details,.latest-details{
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-size: 18px;
@@ -186,7 +188,7 @@ font-weight: 400;
 /* occassion sample section styles */
 #occassion-banner{
     margin-top: 70px;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 }
 #occassion-container{
     display: flex;
@@ -216,3 +218,56 @@ li{
 .occassion-photos{
     padding-top: 50px;
 }
+/* Latest deals section styles */
+.latest-container{
+    background-image: url('Flower Asset/Rectangle 9.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 380px;
+    width: 1200px;
+   margin: auto;
+}
+.content {
+    padding-top: 100px;
+    justify-content: center;
+    text-align: center;
+  }
+  .input-field{
+    padding: 20px 50px 20px 8px;
+    border: none;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 20px;
+  }
+
+  /* footer styles */
+  .footer-container{
+    background-color: #111010;
+    width: 100%;
+    height: 340px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 50px;
+    margin-top: 50px;
+  }
+  #footer-title{
+    color: #E55473;
+    font-size: 40px;
+    font-weight: 800;
+  }
+  #shop-color{
+    color: #fff;
+  }
+  .footer-details{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  #copyright-reserved{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+  }
