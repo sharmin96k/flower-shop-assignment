@@ -182,3 +182,37 @@ font-weight: 400;
 .flowers-photo{
     width: 90%;
 }
+
+/* occassion sample section styles */
+#occassion-banner{
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+#occassion-container{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+   height: 350px;
+    width: 1200px;
+    background-color: #f3eaec;
+}
+.occassion-info{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+#occassion-details{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+}
+li{
+    color: #272727;
+    font-size: 20px;
+    font-weight: 600;
+}
+.occassion-photos{
+    padding-top: 50px;
+}
